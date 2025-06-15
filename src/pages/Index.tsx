@@ -15,7 +15,7 @@ const Index = () => {
       <div className="w-full max-w-md mx-auto relative z-10">
         <div className="bg-white/70 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/20 p-8 space-y-8 animate-fade-in">
           <Profile
-            avatarUrl="/public/avatar.jpeg"
+            avatarUrl="/avatar.jpeg"
             username="@elainepagnoncelli"
             bio="Transformando vidas através do propósito ✨"
           />
