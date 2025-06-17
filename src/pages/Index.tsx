@@ -22,18 +22,21 @@ const Index = () => {
 
           <div className="space-y-4">
             <LinkButton
-              href="https://wa.me/5546991188660?text=Ol%C3%A1%2C%20Gostaria%20de%20saber%20sobre%20os%20produtos%20da%20loja%20%20Ellatem%20Prop%C3%B3sito.%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%3F"
-              title="Ellatem Propósito Store"
-              subtitle="Produtos com propósito para sua vida"
-            />
-
-            <LinkButton
+              info="WhatsApp"
               href="https://wa.me/5546991188660?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20se%20h%C3%A1%20disponibilidade%20para%20um%20hor%C3%A1rio%3F"
               title="Salão Elaine Pagnoncelli Hub Studio"
               subtitle="Cuidando da sua beleza"
             />
 
             <LinkButton
+              info="WhatsApp"
+              href="https://wa.me/5546991188660?text=Ol%C3%A1%2C%20Gostaria%20de%20saber%20sobre%20os%20produtos%20da%20loja%20%20Ellatem%20Prop%C3%B3sito.%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%3F"
+              title="Ellatem Propósito Store"
+              subtitle="Produtos com propósito para sua vida"
+            />
+
+            <LinkButton
+              info="YouTube"
               href="https://www.youtube.com/@elainepagnoncelli"
               title="Devocionais"
               subtitle="Palavra diária para sua alma"

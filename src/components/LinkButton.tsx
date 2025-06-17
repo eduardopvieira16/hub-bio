@@ -3,9 +3,10 @@ interface LinkButtonProps {
   href: string;
   title: string;
   subtitle?: string;
+  info?: string;
 }
 
-const LinkButton = ({ href, title, subtitle }: LinkButtonProps) => {
+const LinkButton = ({ href, title, subtitle, info }: LinkButtonProps) => {
   return (
     <a
       href={href}
@@ -13,6 +14,7 @@ const LinkButton = ({ href, title, subtitle }: LinkButtonProps) => {
       rel="noopener noreferrer"
       className="group block w-full bg-white/80 backdrop-blur-sm border border-gray-200/50 rounded-2xl p-6 text-center hover:bg-white hover:shadow-xl hover:shadow-purple-500/20 transition-all duration-500 transform hover:scale-[1.02] hover:-translate-y-1 relative overflow-hidden"
     >
+      {info}
       <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 via-pink-500/5 to-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
       <div className="relative z-10">
